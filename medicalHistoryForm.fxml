@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="62.0" style="-fx-background-color: blue;" />
+      <ImageView fitHeight="92.0" fitWidth="103.0" layoutX="99.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profile%20icon%20circled.png" />
+         </image></ImageView>
+      <Label fx:id="patientName" layoutX="228.0" layoutY="28.0" text="Name:" />
+      <Label fx:id="patientID" layoutX="228.0" layoutY="56.0" text="ID:" />
+      <Label fx:id="patientAge" layoutX="228.0" layoutY="74.0" text="Age:" />
+      <Label fx:id="patientSex" layoutX="357.0" layoutY="56.0" text="Sex:" />
+      <Label fx:id="patientDateOfBirth" layoutX="357.0" layoutY="74.0" text="DateOfBirth:" />
+      <ScrollPane layoutX="78.0" layoutY="119.0" prefHeight="266.0" prefWidth="507.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="456.0" prefWidth="539.0">
+               <children>
+                  <ScrollPane layoutX="14.0" layoutY="14.0">
+                     <content>
+                        <Pane prefHeight="123.0" prefWidth="467.0" style="-fx-background-color: grey;">
+                           <children>
+                              <Label fx:id="treatmentName" layoutX="8.0" layoutY="6.0" text="Treatnent Name:" />
+                              <Label fx:id="treatmentDate" layoutX="8.0" layoutY="23.0" text="Treatment Date:">
+                                 <padding>
+                                    <Insets bottom="1.0" top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="treatmentTime" layoutX="8.0" layoutY="40.0" text="Treatment Time:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="treatmentWard" layoutX="8.0" layoutY="58.0" text="Treatment Ward:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="treatmentResult" layoutX="8.0" layoutY="75.0" text="Treatment Result:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="majorComplication" layoutX="250.0" layoutY="6.0" text="Major Complication:" />
+                              <Label fx:id="observation" layoutX="250.0" layoutY="24.0" text="Observation:" />
+                              <Label fx:id="doctorName" layoutX="250.0" layoutY="40.0" text="Doctor Name:" />
+                              <Label fx:id="doctorID" layoutX="250.0" layoutY="58.0" text="Doctor ID:" />
+                              <Label fx:id="nurseName" layoutX="250.0" layoutY="75.0" text="Nurse Name:" />
+                              <Label fx:id="nurseID" layoutX="250.0" layoutY="91.0" text="Nurse ID:" />
+                           </children>
+                        </Pane>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane layoutX="14.0" layoutY="166.0">
+                     <content>
+                        <Pane prefHeight="123.0" prefWidth="467.0" style="-fx-background-color: grey;">
+                           <children>
+                              <Label layoutX="8.0" layoutY="6.0" text="Treatnent Name:" />
+                              <Label layoutX="8.0" layoutY="23.0" text="Treatment Date:">
+                                 <padding>
+                                    <Insets bottom="1.0" top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="40.0" text="Treatment Time:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="58.0" text="Treatment Ward:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="75.0" text="Treatment Result:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="250.0" layoutY="6.0" text="Major Complication:" />
+                              <Label layoutX="250.0" layoutY="24.0" text="Observation:" />
+                              <Label layoutX="250.0" layoutY="40.0" text="Doctor Name:" />
+                              <Label layoutX="250.0" layoutY="58.0" text="Doctor ID:" />
+                              <Label layoutX="250.0" layoutY="75.0" text="Nurse Name:" />
+                              <Label layoutX="250.0" layoutY="91.0" text="Nurse ID:" />
+                              <ScrollBar layoutY="116.0" prefHeight="14.0" prefWidth="467.0" />
+                           </children>
+                        </Pane>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane layoutX="14.0" layoutY="332.0">
+                     <content>
+                        <Pane prefHeight="123.0" prefWidth="467.0" style="-fx-background-color: grey;">
+                           <children>
+                              <Label layoutX="8.0" layoutY="6.0" text="Treatnent Name:" />
+                              <Label layoutX="8.0" layoutY="23.0" text="Treatment Date:">
+                                 <padding>
+                                    <Insets bottom="1.0" top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="40.0" text="Treatment Time:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="58.0" text="Treatment Ward:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="8.0" layoutY="75.0" text="Treatment Result:">
+                                 <padding>
+                                    <Insets top="1.0" />
+                                 </padding>
+                              </Label>
+                              <Label layoutX="250.0" layoutY="6.0" text="Major Complication:" />
+                              <Label layoutX="250.0" layoutY="24.0" text="Observation:" />
+                              <Label layoutX="250.0" layoutY="40.0" text="Doctor Name:" />
+                              <Label layoutX="250.0" layoutY="58.0" text="Doctor ID:" />
+                              <Label layoutX="250.0" layoutY="75.0" text="Nurse Name:" />
+                              <Label layoutX="250.0" layoutY="91.0" text="Nurse ID:" />
+                              <ScrollBar layoutY="116.0" prefHeight="14.0" prefWidth="467.0" />
+                           </children>
+                        </Pane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="521.0" layoutY="24.0" mnemonicParsing="false" text="Print" />
+   </children>
+</AnchorPane>
